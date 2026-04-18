@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Starborn';
+    text-align: center;
+}
+
+.fondo {
+    background-image: url("fondo1.jpg");
+    background-size: cover;
+}
+
+.fondo-secundario {
+    background-image:#ffe6f2;
+}
+
+.header {
+    background-color: #ffb3d9;
+    padding: 20px;
+}
+
+.titulo-principal {
+    font-family: 'ADELIA';
+    color: #ff3399;
+    font-size: 40px;
+}
+
+.menu {
+    background-color: #ffcce6;
+    padding: 15px;
+}
+
+.link {
+    margin: 15px;
+    text-decoration: none;
+    color: #cc0066;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: white;
+}
+
+.seccion {
+    padding: 30px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.titulo {
+    color: #ff66b2;
+}
+
+.subtitulo {
+    color: #ff3399;
+}
+
+.parrafo {
+    font-size: 18px;
+    color: #660033;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.imagen {
+    width: 250px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.imagen-card {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.footer {
+    background-color: #ffb3d9;
+    padding: 15px;
+    font-size: 14px;
+}
