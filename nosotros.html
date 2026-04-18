@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="fondo">
+
+<audio controls>
+  <source src="María Ximena.mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+<header class="header">
+    <h1 class="titulo-principal">Sobre Nosotros</h1>
+</header>
+
+<nav class="menu">
+    <a href="index.html" class="link">Inicio</a>
+    <a href="productos.html" class="link">Productos</a>
+    <a href="MENU.html" class="link">Menú</a>
+    <a href="nosotros.html" class="link">Nosotros</a>
+    <a href="Contacto.html" class="link">Contacto</a>
+</nav>
+
+<section class="seccion">
+    <h2 class="titulo">Nuestra Historia</h2>
+
+    <p class="parrafo">
+        Nuestra pastelería comenzó como un sueño lleno de ilusión y amor por la repostería.
+        Todo inició en casa, preparando postres para familiares y amigos, donde cada receta era 
+        una oportunidad para compartir alegría. Aumentando la pasión por crear sabores únicos y 
+        momentos dulces fue creciendo hasta convertirse en este proyecto, tratando que cada postre inspire 
+        y traiga felicidad a otros.
+    </p>
+     <img src="nosotros.jpg" align="center"
+    <p class="parrafo">
+        Nuestro equipo está conformado por personas creativas y comprometidas con la 
+        excelencia. Cada receta es cuidadosamente probada y cada diseño es pensado para 
+        brindar una experiencia visual y gastronómica única.
+    </p>
+
+    
+</section>
+
+
+<img src="nosotros1.jpg"
+    <center> <h2 class="titulo-equipo">Nuestro equipo de confianza se compone por:</h2></center>
+   
+
+<ol class="lista-equipo">
+  <li>Annajasmin Beltrán Acevedo</li>
+  <li>Maria Ximena Osorio Venegas</li>
+  <li>Josefhine Estrada Velasco</li>
+</ol>
+
+<style>
+/* Estilo del título */
+.titulo-equipo {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  opacity: 0;
+  animation: aparecer 1s ease forwards;
+  text-align: center;
+  color: #c94f7c;
+}
+
+/* Lista ordenada */
+.lista-equipo {
+  padding-left: 40px;
+  font-size: 1.2rem;
+  list-style: decimal;
+}
+
+.lista-equipo li {
+  opacity: 0;
+  transform: translateX(-20px);
+  margin: 10px 0;
+  animation: deslizar 0.5s ease forwards;
+}
+
+/* Animación progresiva para cada elemento */
+.lista-equipo li:nth-child(1) { animation-delay: 0.5s; }
+.lista-equipo li:nth-child(2) { animation-delay: 1s; }
+.lista-equipo li:nth-child(3) { animation-delay: 1.5s; }
+
+/* Keyframes */
+@keyframes aparecer {
+  to { opacity: 1; }
+}
+
+@keyframes deslizar {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+</style>
+ <img src="JJ.png"
+
+</section>
+
+<footer class="footer">
+    Gracias por confiar en nosotros!!
+</footer>
+
+
+
+</body>
+</html>
